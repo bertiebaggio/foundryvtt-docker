@@ -38,9 +38,9 @@ Recreate it, make sure it matches FOUNDRY_DATA_DIR in the Dockerfile, and make s
 
 ## Further Reading
 
-- [Docker setup]([https://foundry-vtt-community.github.io/wiki/Docker/](https://foundry-vtt-community.github.io/wiki/Docker/)) on the Foundry VTT community wiki
-- [Dockerfile reference]([https://docs.docker.com/engine/reference/builder/](https://docs.docker.com/engine/reference/builder/)) from Docker
-- [docker-compose reference]([https://docs.docker.com/compose/compose-file/](https://docs.docker.com/compose/compose-file/)) from Docker
-- [Traefik]([https://docs.traefik.io/](https://docs.traefik.io/)) for automatic routing and termination of Docker services
+- [Docker setup](https://foundry-vtt-community.github.io/wiki/Docker/) on the Foundry VTT community wiki
+- [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) from Docker
+- [docker-compose reference](https://docs.docker.com/compose/compose-file/) from Docker
+- [Traefik](https://docs.traefik.io/) for automatic routing and termination of Docker services
 
 Further help may be found on the #installation-support channel on the [Foundry Discord](https://discordapp.com/invite/DDBZUDf).
