@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+        foundryvtt:
+                build:
+                        context: ./
+                        dockerfile: ./Dockerfile
+                image: foundryvtt:0.5.3
+                container_name: foundryvtt
+                restart: unless-stopped
+                volumes:
+                        # This uses a bind mount in the same directory for persistence
+                        # NOTE: make sure this directory exists!
+                        # Alternatively, a Docker volume would work just as well
+                        - "./foundryvtt-data/:/home/foundry/data/"
+                ports:
+                        # external:internal
+                        - "30000:30000"
